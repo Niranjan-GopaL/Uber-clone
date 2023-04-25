@@ -1,1 +1,3 @@
-1) npx create-expo-app ./ (they removed the browser support) 
+1) npx create-expo-app ./ (they removed the browser support) \
+
+Search for emulators
