@@ -1,0 +1,1 @@
+1) npx create-expo-app ./ (they removed the browser support) 
