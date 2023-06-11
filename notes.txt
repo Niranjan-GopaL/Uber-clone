@@ -1,0 +1,6 @@
+Progress Logs ------------------------------------------------------>
+
+- npx create-expo-app ./
+- npm i (cuz the above cmd stopped at npm i dquote sigh)
+
+- npx expo start --tunnel
