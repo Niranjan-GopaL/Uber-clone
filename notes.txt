@@ -1,6 +1,28 @@
-Progress Logs ------------------------------------------------------>
+Remember These ------------------------------------------------------------------>
 
-- npx create-expo-app ./
-- npm i (cuz the above cmd stopped at npm i dquote sigh)
+- Watch initial part of first vid to get FULL OVERVIEW , UNDERSTAND STRUCTURING etc
 
-- npx expo start --tunnel
+
+IMP STUFF TO Remember  ---------------------------------------------------------->
+
+- ctrl + f   ->   Enter   ->   next occurance of the word 
+- ctrl + f   ->   Shift + Enter   ->   prev occurance of the word 
+
+
+
+
+
+Progress Logs ----------------------------------------------------------------------->
+
+1 Getting started
+
+    - npx create-expo-app ./
+    - npm i (cuz the above cmd stopped at npm i dquote sigh)
+
+    - npx expo start --tunnel
+
+2 Baby steps
+
+    - Cleared default stuff in App.jsx
+    - rnfes TA DA!!!
+    - run and see it works
