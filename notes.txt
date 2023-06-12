@@ -4,8 +4,12 @@ Remember These -----------------------------------------------------------------
   Just refer and understand from there and take what you can't figure out on your own
 
 - Watch initial part of first vid to get FULL OVERVIEW , UNDERSTAND STRUCTURING etc
+
 - It seems not all the coding part is deployed in github cuz he is pretty passionate about
   teaching which is fair. all the misc and dummy data will be in repo
+
+- DAMNNN rm -rf from git bash is MUCHHHHHHHHHHHHHHHHHHHHHH (took like 10 seconds)  
+  Faster than deleting from using the windows stuff. WTFF
 
 IMP STUFF TO Remember  ---------------------------------------------------------->
 
