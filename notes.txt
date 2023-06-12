@@ -3,13 +3,17 @@ Remember These -----------------------------------------------------------------
 - I have cloned his repo in Code Practise/App Dev/  
   Just refer and understand from there and take what you can't figure out on your own
 
-- Watch initial part of first vid to get FULL OVERVIEW , UNDERSTAND STRUCTURING etc
-
-- It seems not all the coding part is deployed in github cuz he is pretty passionate about
-  teaching which is fair. all the misc and dummy data will be in repo
+- HE TOLD THAT YARN IS MUCH MORE RELIABLE THAN NPM !!!!!!!!!! GODD LIFE SAVER
+  SO YOU ARE FINALLYYYY FREEEEEEEEEEE. Fk npm and node.
 
 - DAMNNN rm -rf from git bash is MUCHHHHHHHHHHHHHHHHHHHHHH (took like 10 seconds)  
   Faster than deleting from using the windows stuff. WTFF
+
+
+- Watch initial part of first vid to get FULL OVERVIEW , UNDERSTAND STRUCTURING etc
+- It seems not all the coding part is deployed in github cuz he is pretty passionate about
+  teaching which is fair. all the misc and dummy data will be in repo
+
 
 IMP STUFF TO Remember  ---------------------------------------------------------->
 
@@ -38,4 +42,19 @@ Progress Logs ------------------------------------------------------------------
 3 Global styles and dummy data
 
     - src/globals/styles.js  has all the global styles
-    - 
+    - src /globals/data.js
+    - assets
+
+4 HOME SCREEN BUILD (src/screens/HomeScreen) ----------------------------------------------------------------------
+
+Dependency :-
+
+data.js
+styles.js
+assets
+
+    - NPM IS SHIT , SO USE YARN !!!!
+    - yarn add react-native-status-bar-height     <-------- THis added A LOT OF DEPENDENCIES
+
+
+
