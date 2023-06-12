@@ -1,17 +1,27 @@
+import React from 'react'
 import { StyleSheet, Text, View, Dimensions } from "react-native";
-// import React from 'react'
+import { colors,styles } from './src/globals/styles'
+
 
 const SCREEN_WIDTH = Dimensions.get("window").width;
 
+
+
 const HomeScreen = () => {
+
     return (
         <View>
             <Text>HomeScreen</Text>
         </View>
     );
+
 };
 
 export default HomeScreen;
+
+
+
+
 
 const styles = StyleSheet.create({
     container: {
@@ -27,21 +37,11 @@ const styles = StyleSheet.create({
         alignItems: "flex-start",
     },
 
-    image1: {
-        height: 100,
-        width: 100,
-    },
+    image1: { height: 100, width: 100 },
 
-    image2: {
-        height: 60,
-        width: 60,
-        borderRadius: 30,
-    },
+    image2: {height: 60,width: 60,borderRadius: 30},
 
-    home: {
-        backgroundColor: colors.blue,
-        paddingLeft: 20,
-    },
+    home: {backgroundColor: colors.blue,paddingLeft: 20,},
 
     text1: {
         color: colors.white,
