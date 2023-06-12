@@ -11,7 +11,8 @@ Remember These -----------------------------------------------------------------
 
 - React Native Elements =========>> THIS IS KINDA LIKE MUI (A READY MADE COMPONENT LIBRARY)
   WELL DOCUMENTED 
-  SEE THEIR SITE :-
+  SEE THEIR SITE :- https://reactnativeelements.com 
+  (I INSTALLED USING YARN !!!!!!!!!!!! cuz I can't deal with npm sigh)
 
 - Watch initial part of first vid to get FULL OVERVIEW , UNDERSTAND STRUCTURING etc
 - It seems not all the coding part is deployed in github cuz he is pretty passionate about
@@ -64,4 +65,10 @@ assets
 - rnfes 
 - styling complete 
 - few libraries to install before we jump right in :- 
+
+libraries
 - yarn add react-native-vector-icons
+- yarn add react-native-safe-area-context
+
+
+CODING :-----
