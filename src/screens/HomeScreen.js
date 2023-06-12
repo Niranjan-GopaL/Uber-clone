@@ -14,7 +14,6 @@ const HomeScreen = () => {
 export default HomeScreen;
 
 const styles = StyleSheet.create({
-  
     container: {
         flex: 1,
         backgroundColor: colors.white,
@@ -90,6 +89,83 @@ const styles = StyleSheet.create({
         fontSize: 16,
     },
 
+    view3: {
+        flexDirection: "row",
+        marginTop: 5,
+        height: 50,
+        backgroundColor: colors.grey6,
+        alignItems: "center",
+        justifyContent: "space-between",
+        marginHorizontal: 15,
+    },
+    text3: { marginLeft: 15, fontSize: 20, color: colors.black },
 
+    view4: {
+        flexDirection: "row",
+        alignItems: "center",
+        marginRight: 15,
+        backgroundColor: "white",
+        paddingHorizontal: 10,
+        paddingVertical: 2,
+        borderRadius: 20,
+    },
 
+    view5: {
+        flexDirection: "row",
+        alignItems: "center",
+        backgroundColor: "white",
+        paddingVertical: 25,
+        justifyContent: "space-between",
+        marginHorizontal: 15,
+        borderBottomColor: colors.grey4,
+        borderBottomWidth: 1,
+        flex: 1,
+    },
+
+    view6: {
+        alignItems: "center",
+        flex: 5,
+        flexDirection: "row",
+    },
+    view7: {
+        backgroundColor: colors.grey6,
+        height: 40,
+        width: 40,
+        borderRadius: 20,
+        alignItems: "center",
+        justifyContent: "center",
+        marginRight: 20,
+    },
+
+    map: {
+        height: 150,
+        marginVertical: 0,
+        width: SCREEN_WIDTH * 0.92,
+    },
+
+    text4: {
+        fontSize: 20,
+        color: colors.black,
+        marginLeft: 20,
+        marginBottom: 20,
+    },
+
+    icon1: { marginLeft: 10, marginTop: 5 },
+
+    view8: { flex: 4, marginTop: -25 },
+    carsAround: {
+        width: 28,
+        height: 14,
+    },
+
+    location: {
+        width: 16,
+        height: 16,
+        borderRadius: 8,
+        backgroundColor: colors.blue,
+        alignItems: "center",
+        justifyContent: "center",
+    },
+
+    view9: { width: 4, height: 4, borderRadius: 2, backgroundColor: "white" },
 });
