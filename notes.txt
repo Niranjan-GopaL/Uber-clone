@@ -26,3 +26,7 @@ Progress Logs ------------------------------------------------------------------
     - Cleared default stuff in App.jsx
     - rnfes TA DA!!!
     - run and see it works
+
+3 Importing styles
+
+    - src/globals/styles.js  has all the global styles
