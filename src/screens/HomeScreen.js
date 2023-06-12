@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, View, Dimensions } from "react-native";
-import { colors,styles } from './src/globals/styles'
+import { colors,styles,parameters } from '../globals/styles'
 
 
 const SCREEN_WIDTH = Dimensions.get("window").width;
@@ -10,7 +10,7 @@ const SCREEN_WIDTH = Dimensions.get("window").width;
 const HomeScreen = () => {
 
     return (
-        <View>
+        <View style={styles.container} >
             <Text>HomeScreen</Text>
         </View>
     );
@@ -22,12 +22,16 @@ export default HomeScreen;
 
 
 
-
+// There are few stuff that you need to note
 const styles = StyleSheet.create({
+
     container: {
         flex: 1,
         backgroundColor: colors.white,
         paddingBottom: 30,
+
+        // the yarn add react-native-status-bar-height thing was for this
+        // WHAT is parameters here ?  => imported from global styles
         paddingTop: parameters.statusBarHeight,
     },
 
