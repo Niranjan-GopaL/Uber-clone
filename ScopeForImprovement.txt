@@ -1,0 +1,4 @@
+
+
+-   all the data are static and in globals/data.js
+    insert them in a DATABASE and create scheme and a proper SCALABLE STORAGE
