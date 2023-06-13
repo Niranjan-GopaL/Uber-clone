@@ -1,8 +1,9 @@
 import React from 'react'
 import { StyleSheet, Text, View, Dimensions } from "react-native";
 
-import { colors,styles,parameters } from '../globals/styles'
+import { colors,parameters } from '../globals/styles'
 import { Icon } from 'react-native-vector-icons/Icon';
+import { StatusBar } from 'expo-status-bar';
 
 const SCREEN_WIDTH = Dimensions.get("window").width;
 
@@ -15,13 +16,17 @@ const HomeScreen = () => {
         // Views are kinda like divs
         <View style={styles.container} >
             <View style={styles.header}>
+
                 <View style={styles.icon1}>
-                    <Icon type="material-community" 
-                    name='menu'
-                    color={colors.white}
-                    size={40}
-                    />
+                    {/* ICON is from rne (react native elements) ==> kinda like MUI */}
+                    {/* This is the hamburgur menu icon */}
+                    <Icon type="material-community" name='menu' color={colors.white} size={40}/>
                 </View>
+
+
+                {/* We also need the status bar of the mobile to be blue ==> match our color palatte */}
+                {/* Now the status bar is awesome */}
+                <StatusBar style='' backgroundColor='#2058c0' translucent={{}}  />
             </View>
         </View>
     );
