@@ -1,6 +1,8 @@
 import React from 'react'
 import { StyleSheet, Text, View, Dimensions } from "react-native";
+
 import { colors,styles,parameters } from '../globals/styles'
+import { Icon } from 'react-native-vector-icons/Icon';
 
 const SCREEN_WIDTH = Dimensions.get("window").width;
 
@@ -9,8 +11,18 @@ const SCREEN_WIDTH = Dimensions.get("window").width;
 const HomeScreen = () => {
 
     return (
+
+        // Views are kinda like divs
         <View style={styles.container} >
-            <Text>HomeScreen</Text>
+            <View style={styles.header}>
+                <View style={styles.icon1}>
+                    <Icon type="material-community" 
+                    name='menu'
+                    color={colors.white}
+                    size={40}
+                    />
+                </View>
+            </View>
         </View>
     );
 
