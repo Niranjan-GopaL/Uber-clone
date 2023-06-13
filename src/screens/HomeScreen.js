@@ -1,10 +1,13 @@
 import { StyleSheet, Text, View, Dimensions, ScrollView, Image } from "react-native"; 
 // import { Image } from 'react-native-elements';  // <------- not this  the img tag we used is from react native 
 
-import { colors,parameters } from '../globals/styles'
 import { Icon } from 'react-native-vector-icons/Icon';
 import { StatusBar } from 'expo-status-bar';
 
+// import filterData from '../globals/data'  //<------ know the difference. We are destrcuturing something here
+import {filterData} from '../globals/data'
+
+import { colors,parameters } from '../globals/styles'
 const SCREEN_WIDTH = Dimensions.get("window").width;
 
 
@@ -57,15 +60,20 @@ const HomeScreen = () => {
 
 
                         <View>
+                        {/* the 4 list options - just dummy stuff but really nice */}
                         <FlatList 
+                            //  4 columns but 4 numRow => check documentation whatsapp
                             numRows ={4}
                             horizontal = {true}
+                            // scroll bar is shit
                             showsHorizontalScrollIndicator ={false}
                             data ={filterData}
                             keyExtractor = {(item)=>item.id}
+                            // rendering each item in 'data' in this format => V[ V[] T[] ]
                             renderItem = { ({item})=>(
                                 <View style = {styles.card}>
                                     <View style ={styles.view2}>
+                                        {/* Each item makes it dynamic*/}
                                         <Image style ={styles.image2} source = {item.image} />
                                     </View>
                                     <View>
@@ -74,8 +82,33 @@ const HomeScreen = () => {
                                 </View>
                             )}
                         />
-                    </View>
+                        </View>
 
+                                
+
+
+                    <View style ={styles.view3}>
+                        <Text style ={styles.text3}> Where to ?</Text>  
+                        {/* the entire thing is enclosed in white bgm */}
+                        <View style ={styles.view4}>
+
+                            {/* The clock icon on the left */}
+                            <Icon type = "material-community"
+                                name ="clock-time-four"
+                                color = {colors.grey1}
+                                size = {26}/> 
+
+                            {/* Now? */}
+                             <Text style ={{marginLeft:5}}>Now</Text> 
+
+                            {/* Drop-down arrow icon */}
+                             <Icon type = "material-community"
+                                name ="chevron-down"
+                                color = {colors.grey1}
+                                size = {26}/>  
+
+                        </View>     
+                    </View>
 
 
                     </View>
