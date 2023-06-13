@@ -49,7 +49,10 @@ Progress Logs ------------------------------------------------------------------
     - src /globals/data.js
     - assets
 
-4 HOME SCREEN BUILD (src/screens/HomeScreen) ----------------------------------------------------------------------
+
+
+
+HOME SCREEN BUILD (src/screens/HomeScreen) ----------------------------------------------------------------------
 
 Dependency :-
 
@@ -94,7 +97,7 @@ CODING :-----
 
                       yarn add react-native-elements  
 
-                      
+
 
                             "dependencies": {
                               "expo": "~48.0.18",
@@ -112,4 +115,4 @@ CODING :-----
 
 
 
-
+- Blue bg , translucent status bar, BUtton, Image tag from react native

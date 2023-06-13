@@ -1,5 +1,5 @@
-import React from 'react'
-import { StyleSheet, Text, View, Dimensions, ScrollView } from "react-native";
+import { StyleSheet, Text, View, Dimensions, ScrollView, Image } from "react-native"; 
+// import { Image } from 'react-native-elements';  // <------- not this  the img tag we used is from react native 
 
 import { colors,parameters } from '../globals/styles'
 import { Icon } from 'react-native-vector-icons/Icon';
@@ -28,18 +28,55 @@ const HomeScreen = () => {
                     <View style={styles.home} >
                         <Text style={styles.text1}> Destress Your Commute  </Text>
                         
+
+
                         <View style={styles.view1} >
                             <View style={styles.view8} >
 
                                 {/* Text above button */}
                                 <Text style={styles.text2}>Read a Book, Take a nap, Stare out the window.</Text>
 
+
                                 {/* BUTTON TEXT */}
                                 <View style={styles.button1} >
                                     <Text style={styles.button1Text} >Ride with Uber</Text>
                                 </View>
+
+
+                                <View>
+                                {/* The car image from assets.  WE CREATE THE 45 degree TILT EFFECT  */}
+                                {/* uberCar.png is BY DEFAULT LIKE THAT . need some blender skills lol  */}
+                                {/* IMAGE TAG FROM REACT NATIVE IS HOW WE PUT IMG !!!! */}
+                                <Image style ={styles.image1} source = {require('../../assets/uberCar.png')}/>
+                                </View>
+
                             </View>
                         </View>
+
+
+
+
+                        <View>
+                        <FlatList 
+                            numRows ={4}
+                            horizontal = {true}
+                            showsHorizontalScrollIndicator ={false}
+                            data ={filterData}
+                            keyExtractor = {(item)=>item.id}
+                            renderItem = { ({item})=>(
+                                <View style = {styles.card}>
+                                    <View style ={styles.view2}>
+                                        <Image style ={styles.image2} source = {item.image} />
+                                    </View>
+                                    <View>
+                                        <Text style ={styles.title}>{item.name}</Text>
+                                    </View>
+                                </View>
+                            )}
+                        />
+                    </View>
+
+
 
                     </View>
                 </ScrollView>
