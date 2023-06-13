@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, Text, View, Dimensions } from "react-native";
+import { StyleSheet, Text, View, Dimensions, ScrollView } from "react-native";
 
 import { colors,parameters } from '../globals/styles'
 import { Icon } from 'react-native-vector-icons/Icon';
@@ -24,9 +24,30 @@ const HomeScreen = () => {
                 </View>
 
 
+                <ScrollView bounces={false} >
+                    <View style={styles.home} >
+                        <Text style={styles.text1}> Destress Your Commute  </Text>
+                        
+                        <View style={styles.view1} >
+                            <View style={styles.view8} >
+
+                                {/* Text above button */}
+                                <Text style={styles.text2}>Read a Book, Take a nap, Stare out the window.</Text>
+
+                                {/* BUTTON TEXT */}
+                                <View style={styles.button1} >
+                                    <Text style={styles.button1Text} >Ride with Uber</Text>
+                                </View>
+                            </View>
+                        </View>
+
+                    </View>
+                </ScrollView>
+
                 {/* We also need the status bar of the mobile to be blue ==> match our color palatte */}
                 {/* Now the status bar is awesome */}
                 <StatusBar style='' backgroundColor='#2058c0' translucent={{}}  />
+
             </View>
         </View>
     );
@@ -34,6 +55,25 @@ const HomeScreen = () => {
 };
 
 export default HomeScreen;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -50,10 +90,14 @@ const styles = StyleSheet.create({
         // WHAT is parameters here ?  => imported from global styles
         paddingTop: parameters.statusBarHeight,
     },
-
+    
     header: {
         backgroundColor: colors.blue,
         height: parameters.headerHeight,
+
+        // We are already paddingtoppping the container so no need to do it again, this was the fault
+        // paddingTop: parameters.statusBarHeight,
+
         alignItems: "flex-start",
     },
 
