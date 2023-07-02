@@ -7,8 +7,21 @@ const App = () => {
   return (
 
     // the styles is that const styles defiend below as StyleSheet.create({}) 
-    <View style={styles.container}>
+    <View >
       <HomeScreen />
+      <Text>
+        HIIIIIIIIIIIIIII
+        HIIIIIIIIIIIIIII
+        HIIIIIIIIIIIIIII
+        HIIIIIIIIIIIIIII
+        HIIIIIIIIIIIIIII
+        HIIIIIIIIIIIIIII
+        HIIIIIIIIIIIIIII
+        HIIIIIIIIIIIIIII
+        HIIIIIIIIIIIIIII
+        HIIIIIIIIIIIIIII
+        HIIIIIIIIIIIIIII
+      </Text>
     </View>
   )
 }
