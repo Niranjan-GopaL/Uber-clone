@@ -131,7 +131,7 @@ const HomeScreen = () => {
 {/* ------------------------------- error is here ---------------------------------------------- */}
                 {/* We also need the status bar of the mobile to be blue ==> match our color palatte */}
                 {/* Now the status bar is awesome */}
-                {/* <StatusBar style='' backgroundColor='#2058c0' translucent={{}}  /> */}
+                <StatusBar style='' backgroundColor='#2058c0' translucent={true}  />
 {/* ------------------------------- error is here ---------------------------------------------- */}
 
 
