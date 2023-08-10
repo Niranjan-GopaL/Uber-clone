@@ -117,3 +117,22 @@ CODING :-----
 
 - Blue bg , translucent status bar, BUtton, Image tag from react native
 - FlatList
+
+
+
+
+<-------------- HomeScreen Starting over ----------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
