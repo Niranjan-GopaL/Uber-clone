@@ -4,7 +4,7 @@ Remember These -----------------------------------------------------------------
   Just refer and understand from there and take what you can't figure out on your own
 
 - HE TOLD THAT YARN IS MUCH MORE RELIABLE THAN NPM !!!!!!!!!! GODD LIFE SAVER
-  SO YOU ARE FINALLYYYY FREEEEEEEEEEE. Fk npm and node.
+  SO YOU ARE FINALLYYYY FREEEEEEEEEEE. Fk npm.
 
 - DAMNNN rm -rf from git bash is MUCHHHHHHHHHHHHHHHHHHHHHH (took like 10 seconds)  
   Faster than deleting from using the windows stuff. WTFF
@@ -33,7 +33,7 @@ Progress Logs ------------------------------------------------------------------
 1 Getting started
 
     - npx create-expo-app ./
-    - npm i (cuz the above cmd stopped at npm i dquote sigh)
+    - yarn
 
     - npx expo start --tunnel
 

@@ -1,7 +1,7 @@
-import { StyleSheet,Text,View,Dimensions,ScrollView,Image } from 'react-native';
+import { StyleSheet, Text, View, Dimensions, ScrollView, Image, FlatList } from 'react-native';
 // import { Image } from 'react-native-elements';  // <------- not this  the img tag we used is from react native 
 
-import { Icon } from 'react-native-vector-icons/Icon';
+import { Icon} from 'react-native-elements'
 import { StatusBar } from 'expo-status-bar';    
 
 // import filterData from '../globals/data'  //<------ know the difference. We are destrcuturing something here
@@ -16,6 +16,7 @@ const HomeScreen = () => {
 
     return (
 
+
         // Views are kinda like divs
         <View style={styles.container} >
             <View style={styles.header}>
@@ -25,6 +26,10 @@ const HomeScreen = () => {
                     {/* This is the hamburgur menu icon */}
                     <Icon type="material-community" name='menu' color={colors.white} size={40}/>
                 </View>
+
+
+
+
 
 
                 <ScrollView bounces={false} >
